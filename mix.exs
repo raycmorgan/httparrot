@@ -25,7 +25,7 @@ defmodule Httparrot.Mixfile do
 
   defp deps(:test) do
     deps(:dev) ++
-     [ {:meck, github: "eproxus/meck", tag: "0.8.1" } ]
+     [ {:meck, github: "eproxus/meck", ref: "638e699fd99cb4d0fc97601d218486eed6c7fa9e" } ]
   end
 
   defp deps(_), do: deps(:dev)
